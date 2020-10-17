@@ -19,6 +19,8 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
+
+  background: url(../../images/landing.svg) no-repeat 80% center;
 }
 
 #page-landing .content-wrapper main {
@@ -29,12 +31,14 @@
   font-size: 76px;
   font-weight: 900;
   line-height: 70px;
+  
+  margin: 0 0 80px 0;
 }
 
 #page-landing .content-wrapper main p {
-    margin-top: 40px;
-    font-size: 24px;
-    line-height: 34px;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .content-wrapper .location {
@@ -64,8 +68,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.2s;
 }
 
-.content-wrapper .enter-app:hover{
-   background: #96feff;  
+.content-wrapper .enter-app:hover {
+  background: #96feff;
 }
